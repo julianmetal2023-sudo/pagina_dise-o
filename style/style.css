@@ -1,0 +1,326 @@
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #111111;
+}
+
+.contenedor {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background: #24282b;
+  color: #ffffff;
+  padding-top: 25px;
+  min-height: 75px;
+  border-bottom: 4px solid #1293d4;
+}
+
+header #marca {
+  float: left;
+}
+
+header #marca h1 {
+  margin: 0;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+header .resaltado,
+header .actual a {
+  color: #1293d4;
+  font-weight: bold;
+}
+
+header nav {
+  float: right;
+  margin-top: 6px;
+}
+
+header li {
+  display: inline;
+  padding: 0 18px;
+}
+
+header a {
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+header a:hover {
+  color: #1293d4;
+  font-weight: bold;
+}
+
+/* Cabecera principal (solo index.html) */
+#cabecera {
+  min-height: 360px;
+  background: linear-gradient(rgba(30, 30, 30, 0.35), rgba(30, 30, 30, 0.35)),
+    url("../assets/cabecera.jpg") no-repeat center center/cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+#cabecera h1 {
+  margin-top: 95px;
+  font-size: 46px;
+  margin-bottom: 12px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
+}
+
+#cabecera p {
+  font-size: 17px;
+  max-width: 780px;
+  margin: 0 auto;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.45);
+}
+
+/* Boletín */
+#boletin {
+  padding: 18px 0;
+  color: #ffffff;
+  background: #24282b;
+}
+
+#boletin h1 {
+  float: left;
+  margin: 5px 0 0 0;
+  font-size: 21px;
+}
+
+#boletin form {
+  float: right;
+  margin-top: 2px;
+}
+
+#boletin input[type="email"] {
+  padding: 6px 10px;
+  height: 36px;
+  width: 240px;
+  border: none;
+  font-size: 14px;
+}
+
+.boton_1 {
+  height: 36px;
+  background: #e8491d;
+  border: 0;
+  padding: 0 20px;
+  color: #ffffff;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.boton_1:hover {
+  background: #cf3d14;
+}
+
+/* Cajas (index.html) */
+
+.caja img{
+  height: 100px;
+}
+#cajas {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+#cajas .caja {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+  padding: 15px 25px;
+}
+
+#cajas .caja h3 {
+  margin: 12px 0 10px 0;
+  font-size: 17px;
+}
+
+#cajas .caja p {
+  font-size: 13px;
+  color: #222222;
+  line-height: 1.45;
+}
+
+/* Contenido principal (Nosotros, Servicios, Contacto) */
+#main {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+article#main-col > h1 {
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+article#main-col img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  margin-top: 12px;
+}
+
+/* Barra lateral */
+aside#lateral {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.oscuro {
+  padding: 18px 20px;
+  background: #35424a;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 12px;
+}
+
+.oscuro h3 {
+  margin-top: 0;
+  font-size: 17px;
+}
+
+/* Lista de Servicios (servicios.html) */
+ul#servicios li {
+  list-style: none;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  margin-bottom: 8px;
+  background: #e6e6e6;
+}
+
+ul#servicios li h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 17px;
+}
+
+ul#servicios li p {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+/* Formulario de Contacto (contacto.html) */
+.contacto-form label {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 14px;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  border: 1px solid #bbbbbb;
+  font-family: inherit;
+  font-size: 14px;
+  background-color: #ffffff;
+}
+
+.contacto-form textarea {
+  height: 135px;
+  resize: vertical;
+}
+
+.boton_enviar {
+  width: 100%;
+  height: 38px;
+  background: #e8491d;
+  border: 0;
+  color: #ffffff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.boton_enviar:hover {
+  background: #cf3d14;
+}
+
+/* Mapa en Contacto */
+.mapa-contenedor {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.mapa-contenedor img {
+  width: 100%;
+  height: 290px;
+  border: 0;
+  display: block;
+}
+
+/* Pie de página */
+footer {
+  padding: 22px;
+  margin-top: 15px;
+  color: #ffffff;
+  background-color: #1293d4;
+  text-align: center;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* Diseño adaptable (Responsive) */
+@media (max-width: 768px) {
+  header #marca,
+  header nav,
+  header nav li,
+  #boletin h1,
+  #boletin form,
+  #cajas .caja,
+  article#main-col,
+  aside#lateral {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header {
+    padding-bottom: 20px;
+  }
+
+  #cabecera h1 {
+    margin-top: 40px;
+    font-size: 34px;
+  }
+
+  #boletin input[type="email"],
+  #boletin button {
+    width: 100%;
+    margin-bottom: 6px;
+  }
+
+  .contacto-form label {
+    text-align: left;
+  }
+}

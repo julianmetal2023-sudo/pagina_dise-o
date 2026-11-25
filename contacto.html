@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Diseño Multimedia | Contacto</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="contenedor">
+      <div id="marca">
+        <h1>Diseño <span class="resaltado">Multimedia</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="nosotros.html">NOSOTROS</a></li>
+          <li><a href="servicios.html">SERVICIOS</a></li>
+          <li class="actual"><a href="contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="boletin">
+    <div class="contenedor">
+      <h1>Subscríbete a nuestro boletín</h1>
+      <form action="#">
+        <input type="email" placeholder="Ingrese el Email..." required>
+        <button type="submit" class="boton_1">Suscribirse</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="contenedor">
+      <article id="main-col">
+        <h1>Contacto</h1>
+        <form class="contacto-form" action="#">
+          <div>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Ingresa tu email" required>
+          </div>
+          <div>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" placeholder="Ingresa tu teléfono">
+          </div>
+          <div>
+            <label for="celular">Celular</label>
+            <input type="tel" id="celular" placeholder="Ingresa tu celular">
+          </div>
+          <div>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" rows="6"></textarea>
+          </div>
+          <button type="submit" class="boton_enviar">Enviar</button>
+        </form>
+      </article>
+
+      <aside id="lateral">
+        <div class="oscuro">
+          <h3>Que hacemos</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna
+          </p>
+        </div>
+
+        <div class="mapa-contenedor">
+            <img src="assets/mapaGoogle.png" alt="">
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <footer>
+    <p>Graphel Desarrollo Web, Copyright &copy; 2017</p>
+  </footer>
+
+</body>
+</html>
